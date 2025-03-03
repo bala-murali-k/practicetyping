@@ -4,6 +4,8 @@
     import DarkIcon from './../../assets/icons/darkModeIcon.svg';
     import { globalVariables } from '../../store/common.svelte';
 
+    import ListPractice from './display.list.practice.catalogue.component.svelte';
+
     let isDarkTheme = $state(false);
 
 </script>
@@ -20,7 +22,7 @@
     </button>
 </nav>
 <div class="{globalVariables.isDarkTheme ? 'dark' : 'light'} list-body">
-    <h1>Hello</h1>
+    <ListPractice />
 </div>
 
 <style>
@@ -34,7 +36,7 @@
         background-color: #FFFFE0;
         color: #556B2F;
         width: 100dvw;
-        height: 100dvh;
+        height: 90dvh;
     }
 
     .light-icon, .dark-icon {
@@ -55,8 +57,15 @@
         border-radius: 10px;
         background-color: aliceblue;
         width: 100dvw;
+        height: 10dvh;
         justify-content: flex-end;
         padding: .75em;
         padding-right: 2em;
+    }
+
+    .list-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>

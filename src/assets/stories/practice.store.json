@@ -1,0 +1,30 @@
+{
+    "Alphabets": {
+        "practiceKey": "ALPHABETS",
+        "practiceTitle": "Alphabets",
+        "practiceContent": {
+            "practiceText": "abcdefghijklmnopqrstuvwxyz"
+        }
+    },
+    "MiddleRow": {
+        "practiceKey": "MIDDLEROW",
+        "practiceTitle": "Middle Row",
+        "practiceContent": {
+            "practiceText": "asdfghjklj;"
+        }
+    },
+    "UpperRow": {
+        "practiceKey": "UPPERROW",
+        "practiceTitle": "Upper Row",
+        "practiceContent": {
+            "practiceText": "qwertyuiop"
+        }
+    },
+    "BottomRow": {
+        "practiceKey": "BOTTOMROW",
+        "practiceTitle": "Bottom Row",
+        "practiceContent": {
+            "practiceText": "zxcvbnm,./"
+        }
+    }
+}
