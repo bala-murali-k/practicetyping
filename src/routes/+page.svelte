@@ -1,5 +1,5 @@
 <script lang="ts">
-    import PracticeAreaCore from './../components/practice/core.practice.component.svelte';
+    import LandingPage from './../components/landing/core.landing.component.svelte';
 </script>
 
-<PracticeAreaCore />
+<LandingPage />
