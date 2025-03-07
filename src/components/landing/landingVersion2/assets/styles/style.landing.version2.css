@@ -1,0 +1,59 @@
+:root{
+    --royal-blue: #4169E1;
+    --mint-green: #98FF98;
+}
+
+.wrapper {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigate-card {
+    /* background-color: var(--royal-blue); */
+    background-color: transparent;
+    width: 35dvw;
+    height: 50dvh;
+    margin: 1em;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.navigate-card:hover {
+    width: 35.5dvw;
+    height: 50.5dvh;
+    box-shadow: 4px 4px 20px 4px var(--royal-blue), -4px -4px 20px 4px var(--royal-blue);
+}
+
+.navigate-card:hover + .details-card {
+    width: 34.5dvw;
+    height: 49.5dvh;
+}
+
+.details-card {
+    /* background-color: var(--mint-green); */
+    background-color: transparent;
+    width: 35dvw;
+    height: 50dvh;
+    margin: 1em;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.details-card:hover {
+    width: 35.5dvw;
+    height: 50.5dvh;
+    box-shadow: 4px 4px 20px 4px var(--mint-green), -4px -4px 20px 4px var(--mint-green);
+}
+
+.details-card:hover + .navigate-card {
+    width: 34.5dvw;
+    height: 49.5dvh;
+}
+
+.about-navigate {
+    background-color: #4169E1;
+}
